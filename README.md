@@ -6,7 +6,7 @@ This repository documents a real-time data ingestion pipeline using Dockerized s
 
 ## 🧱 Architecture Overview
 
-- **Amazon EC2 (Ubuntu)**: Hosts Docker containers using `docker-compose.yml`.
+- **Amazon EC2 (Linux)**: Hosts Docker containers using `docker-compose.yml`.
 - **Dockerized Services**:
   - **Apache NiFi** – Used to move and transform data.
   - **Jupyter Lab** – Used to generate fake/test data.
